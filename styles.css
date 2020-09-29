@@ -1,0 +1,284 @@
+  html{
+
+    background: url(background.jpg) no-repeat;
+    background-color:#021221;
+    background-size: cover;
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    height:2000px;
+
+  }
+  body{
+
+    background-color:transparent;
+    font-family: arial Black;
+    text-align:center;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+
+  .loading {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("loading.gif") center no-repeat #fff;
+    background-size: 580px;
+    background-color:white;
+    font-size:75px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+  }
+  #container{
+    display: grid;
+    grid-template-columns: 1670px;
+    padding: 0px;
+    text-align:center;
+    width:100%;
+    margin:auto;
+  }
+
+  #logo{
+    background-color:transparent;
+    text-align: center;
+    font-family: Bronzetti;
+    margin-bottom:40px;
+    margin-top:200px;
+    line-height: 450%;
+
+  }
+
+  #screen{
+    width:100%;
+    padding;0px;
+    border:4px #581B23 inset;
+    border-radius:3%;
+    background-color:#021221;
+    margin:auto;
+    display:none;
+  }
+
+  #seats{
+    width:99%;
+    margin:auto;
+    border:4px #581B23 groove;
+    border-radius:3.5%;
+    padding:4px;
+    background-color:#021221;
+
+  }
+  .back{
+    padding:0px;
+    margin:0px;
+    width:80px;
+    height:80px;
+    background-color:transparent;
+    color:white;
+    border:0;
+    position:relative;
+    left:-790px;
+  }
+  .back2{
+    padding:0px;
+    margin:0px;
+    width:80px;
+    height:80px;
+    background-color:transparent;
+    color:white;
+    border:0;
+    position:relative;
+    left:-460px;
+
+  }
+
+  .cat-walk{
+    border:none;
+    width:100%;
+    height:113px;
+    padding:1px;
+    font-size:25px;
+    font-weight:bold;
+    margin:3px;
+    background-image: url("cat walk.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 113px;
+    background-color:transparent;
+  }
+  #keymap{
+    padding:10px;
+    width:100%;
+    margin:3px;
+    background-color:transparent;
+    horizontal-align:center;
+    text-align: center;
+    clear:both;
+    display:inline-block;
+    color:white;
+
+  }
+
+  #form{
+    padding:5px;
+    background-color:#021221;
+    margin:auto;
+    border:4px #581B23 inset;
+    border-radius:5%;
+    width:60%;
+    display:none;
+  }
+
+  .button{
+    margin:1px;
+    padding:1px;
+    width:41px;
+    height:41px;
+    font-size:8px;
+    font-weight:bold;
+    margin-bottom:3px;
+    vertical-align:top;
+    background-color:white;
+    opacity:0.2;
+    border-radius:15%;
+    border:1px #581B23 solid;
+
+  }
+
+
+  .clickable{
+    border: none;
+    cursor: default;
+    opacity: 1;
+  }
+  .unclickable{
+    border:none;
+    background-image: url("X seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    }
+  .upperside{
+    border:none;
+  }
+  .lowerside{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .clicked{
+    background-image: url("selected seat.png") !important;
+  }
+  .green{
+      background-image: url("5 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+  .violet{
+      background-image: url("2 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+  .orange{
+      background-image: url("1 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+  .yellow{
+      background-image: url("6 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+  .blue{
+      background-image: url("3 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+  .red{
+      background-image: url("4 seat.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  }
+
+  #CCform
+  {
+    display:none;
+  }
+
+  .coredor{
+  margin-left:15px;
+  }
+
+  .modal-body{
+    text-align:left;
+  }
+
+  .caton{
+
+    width:75%;
+    background-color:#021221;
+    color:white;
+    font-size:37;
+    border-radius:7%;
+  }
+  .control{
+
+    width:49.17%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:.25rem;
+
+    }
+
+    .control2{
+
+    width:40%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:.25rem;
+
+    }
+    .control3{
+
+    width:91%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:.25rem;
+
+    }
