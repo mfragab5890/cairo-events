@@ -15,8 +15,8 @@
     background-color:transparent;
     font-family: arial Black;
     text-align:center;
-    width:70%;
-    display: block;
+    width:50%;
+    display: inherit;
     margin-left: auto;
     margin-right: auto;
 
