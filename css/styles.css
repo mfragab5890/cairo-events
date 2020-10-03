@@ -16,8 +16,11 @@
     font-family: arial Black;
     text-align:center;
     width:100%;
-    margin:0;
-    padding:0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
   }
 
   .no-js #loader {
