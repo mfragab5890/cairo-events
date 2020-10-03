@@ -15,12 +15,11 @@
     background-color:transparent;
     font-family: arial Black;
     text-align:center;
-    width:100%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   .no-js #loader {
